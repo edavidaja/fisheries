@@ -13,7 +13,7 @@ bootstrap:
   
 # write manifest
 manifest:
-  R -e 'rsconnect::writeManifest(appFiles = c("ss", "plumber.R))'
+  R -q -e 'rsconnect::writeManifest(appFiles = c("ss", "plumber.R", "control.ss", "data.ss", "forecast.ss", "ss_summary.sso", "starter.ss", "wtatage.ss"))'
 
 # deploy to named connect server
 deploy connect:
