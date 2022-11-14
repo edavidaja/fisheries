@@ -9,7 +9,7 @@ setup:
 
 # restore environment
 bootstrap:
-  R -e "renv::restore()"
+  R -q -e "renv::restore()"
   
 # write manifest
 manifest:
@@ -18,3 +18,10 @@ manifest:
 # deploy to named connect server
 deploy connect:
   rsconnect deploy manifest manifest.json -n {{connect}}
+  
+# run ss model
+run:
+  ./ss
+
+clean:
+  git clean -f

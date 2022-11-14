@@ -33,6 +33,14 @@
       "Hash": "0d297d01734d2bcea40197bd4971a764",
       "Requirements": []
     },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-18",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "019388fc48e48b3da0d3a76ff94608a8",
+      "Requirements": []
+    },
     "coro": {
       "Package": "coro",
       "Version": "1.0.3",
@@ -59,6 +67,14 @@
       "Hash": "0eb86baa62f06e8855258fa5a8048667",
       "Requirements": []
     },
+    "digest": {
+      "Package": "digest",
+      "Version": "0.6.30",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "bf1cd206a5d170d132ef75c7537b9bdb",
+      "Requirements": []
+    },
     "ellipsis": {
       "Package": "ellipsis",
       "Version": "0.3.2",
@@ -67,6 +83,37 @@
       "Hash": "bb0eec2fe32e88d9e2836c2f73ea2077",
       "Requirements": [
         "rlang"
+      ]
+    },
+    "fastmap": {
+      "Package": "fastmap",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
+      "Requirements": []
+    },
+    "future": {
+      "Package": "future",
+      "Version": "1.29.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "783c201d2edfee73263de8e17cbdfa8e",
+      "Requirements": [
+        "digest",
+        "globals",
+        "listenv",
+        "parallelly"
+      ]
+    },
+    "globals": {
+      "Package": "globals",
+      "Version": "0.16.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "e14798793892c6bebdbe2f144aacf6e6",
+      "Requirements": [
+        "codetools"
       ]
     },
     "glue": {
@@ -121,6 +168,14 @@
         "rlang"
       ]
     },
+    "listenv": {
+      "Package": "listenv",
+      "Version": "0.8.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "0bde42ee282efb18c7c4e63822f5b4f7",
+      "Requirements": []
+    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.3",
@@ -135,6 +190,14 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104",
+      "Requirements": []
+    },
+    "parallelly": {
+      "Package": "parallelly",
+      "Version": "1.32.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "9e3d8d65cb9c5ca5966340a6bfec60b2",
       "Requirements": []
     },
     "plumber": {
